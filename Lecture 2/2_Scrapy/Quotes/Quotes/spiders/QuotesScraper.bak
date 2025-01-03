@@ -1,0 +1,11 @@
+import scrapy
+
+
+class QuotesscraperSpider(scrapy.Spider):
+    name = "QuotesScraper"
+    allowed_domains = ["quotes.toscrape.com"]
+    start_urls = ["https://quotes.toscrape.com"]
+
+    def parse(self, response):
+        with open('scraped.html','w') as f:
+            f.write(response.body)
