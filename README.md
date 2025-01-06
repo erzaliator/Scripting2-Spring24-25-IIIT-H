@@ -4,8 +4,6 @@ Coursework for Computer Scripting 2 Spring 24-25
 
 Go to [calendar page](calendar.md) for Overview of weekwise subjects.
 
-Go to [Projects and Assignments](Project_assignments.md)
-
 ## Tentative Grading scheme and class outline.
 
 1.5 hour class. 
